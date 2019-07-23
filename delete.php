@@ -8,6 +8,7 @@
 require ("config.php");
 require ("common.php");
 
+
 if (isset($_GET["id"])) {
   try {
     $connection = new PDO($dsn, $username, $password, $options);
