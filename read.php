@@ -64,7 +64,7 @@ if (isset($_POST['submit'])) {
       </tbody>
   </table>
   <?php } else { ?>
-    > No results found for location<?php echo escape($_POST['location']); ?>.
+    > No results found for <?php echo escape($_POST['location']); ?>.
   <?php }
 } ?>
 

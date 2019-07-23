@@ -44,7 +44,7 @@ try {
 
 <h2>Delete users</h2>
 
-<?php if ($success) echo $success; ?>
+<!-- <?php if ($success) echo $success; ?> -->
 
 <table>
   <thead>
@@ -74,7 +74,7 @@ try {
   <?php endforeach; ?>
   </tbody>
 </table>
-
+<br/>
 <a href="index.php">Back to home</a>
 
 <?php require "templates/footer.php"; ?>
