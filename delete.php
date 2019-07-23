@@ -4,6 +4,7 @@
   * Delete a user
   */
 
+
 require ("config.php");
 require ("common.php");
 
@@ -19,7 +20,7 @@ if (isset($_GET["id"])) {
     $statement->bindValue(':id', $id);
     $statement->execute();
 
-    $success = "User successfully deleted";
+    $success = "User successfully deleted.";
   } catch(PDOException $error) {
     echo $sql . "<br>" . $error->getMessage();
   }
