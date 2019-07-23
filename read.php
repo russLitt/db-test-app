@@ -32,13 +32,16 @@ if (isset($_POST['submit'])) {
 
 <?php require "templates/header.php"; ?>
 
+<div class="container-fluid">
+
 <?php
 if (isset($_POST['submit'])) {
   if ($result && $statement->rowCount() > 0) { ?>
+
     <h2>Results</h2>
 
     <table>
-      <thead>
+<thead>
 <tr>
   <th>ID</th>
   <th>First Name</th>
@@ -63,8 +66,9 @@ if (isset($_POST['submit'])) {
     <?php } ?>
       </tbody>
   </table>
+  
   <?php } else { ?>
-    > No results found for <?php echo escape($_POST['location']); ?>.
+       > No results found for <?php echo escape($_POST['location']); ?>.
   <?php }
 } ?>
 
@@ -78,5 +82,6 @@ if (isset($_POST['submit'])) {
 
     <a href="readlastname.php">Or... search by last name</a><br><br>
     <a href="index.php">Back to home</a>
+    </div>
 
     <?php include "templates/footer.php"; ?>

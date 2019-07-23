@@ -24,6 +24,8 @@ try {
 
 <?php require "templates/header.php"; ?>
 
+<div class="container-fluid">
+
 <h2>Update users</h2>
 
 <table>
@@ -57,5 +59,7 @@ try {
 <br>
 
 <a href="index.php">Back to home</a>
+
+</div>
 
 <?php require "templates/footer.php"; ?>

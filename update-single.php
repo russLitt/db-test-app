@@ -60,6 +60,8 @@ if (isset($_GET['id'])) {
 
 <?php require "templates/header.php"; ?>
 
+<div class="container-fluid">
+
 <?php if (isset($_POST['submit']) && $statement) : ?>
   <?php echo escape($_POST['firstname']); ?> successfully updated.
 <?php endif; ?>
@@ -75,5 +77,7 @@ if (isset($_GET['id'])) {
 </form>
 
 <a href="index.php">Back to home</a>
+
+</div>
 
 <?php require "templates/footer.php"; ?>

@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Simple Database App</title>
-    
+
   </head>
 
+  <div class="container-fluid">
   <body>
     <h1>Simple Database App</h1>
   </body>
+  </div>
+
 </html>

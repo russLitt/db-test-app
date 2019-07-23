@@ -42,6 +42,8 @@ try {
 ?>
 <?php require "templates/header.php"; ?>
 
+<div class="container-fluid">
+
 <h2>Delete users</h2>
 
 <!-- <?php if ($success) echo $success; ?> -->
@@ -76,5 +78,7 @@ try {
 </table>
 <br/>
 <a href="index.php">Back to home</a>
+
+</div>
 
 <?php require "templates/footer.php"; ?>

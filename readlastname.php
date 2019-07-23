@@ -1,3 +1,4 @@
+
 <?php
 
 /**
@@ -29,6 +30,8 @@ if (isset($_POST['submit'])) {
 ?>
 
 <?php require "templates/header.php"; ?>
+
+<div class="container-fluid">
 
 <?php
 if (isset($_POST['submit'])) {
@@ -76,5 +79,7 @@ if (isset($_POST['submit'])) {
 
     <a href="read.php">Back to search by location</a><br><br>
     <a href="index.php">Back to home</a>
+
+    </div>
 
     <?php include "templates/footer.php"; ?>

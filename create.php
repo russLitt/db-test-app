@@ -41,6 +41,8 @@ implode(", ", array_keys($new_user)),
 
 <?php require "templates/header.php"; ?>
 
+<div class="container-fluid">
+
 <?php if (isset($_POST['submit']) && $statement) { ?>
   > <?php echo $_POST['firstname']; ?> successfully added.
 <?php } ?>
@@ -62,6 +64,8 @@ implode(", ", array_keys($new_user)),
 </form><br>
 
 <a href="index.php">Back to home</a><br>
+
+</div>
 
 <?php require "templates/footer.php"; ?>
 
