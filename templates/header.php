@@ -13,7 +13,7 @@
 
   <div class="container-fluid">
   <body>
-    <h1>Simple Database App</h1>
+    <h1 class="mx-auto" style="width: 400px;">Simple Database App</h1>
   </body>
   </div>
 

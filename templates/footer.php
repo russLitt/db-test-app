@@ -1,5 +1,5 @@
 <div class="container-fluid">
 </body>
-<p>This sHizniz is Cool | Copyright 1990 something</p>
+<p class="mx-auto" style="width: 200px;">Copyright 1990 something</p>
 </html>
 </div>

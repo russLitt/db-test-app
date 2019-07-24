@@ -44,7 +44,7 @@ try {
 
 <div class="container-fluid">
 
-<h2>Delete users</h2>
+<h2 class="mx-auto" style="width: 200px;">Delete users</h2>
 
 <!-- <?php if ($success) echo $success; ?> -->
 
@@ -79,7 +79,10 @@ try {
 </table>
 </div>
 <br/>
+
+<div class="container-fluid mx-auto" style="width: 140px;">
 <a href="index.php">Back to home</a>
+</div>
 
 </div>
 

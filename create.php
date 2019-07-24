@@ -41,7 +41,7 @@ implode(", ", array_keys($new_user)),
 
 <?php require "templates/header.php"; ?>
 
-<div class="container-fluid">
+<div class="container-fluid mx-auto" style="width: 220px;">
 
 <?php if (isset($_POST['submit']) && $statement) { ?>
   > <?php echo $_POST['firstname']; ?> successfully added.

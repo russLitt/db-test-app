@@ -31,7 +31,7 @@ if (isset($_POST['submit'])) {
 
 <?php require "templates/header.php"; ?>
 
-<div class="container-fluid">
+<div class="container-fluid mx-auto" style="width: 350px;">
 
 <?php
 if (isset($_POST['submit'])) {
@@ -71,7 +71,7 @@ if (isset($_POST['submit'])) {
   <?php }
 } ?>
 
-<h2>Find user based on last name</h2>
+<h2>Search by Last Name</h2>
 
 <form method="post">
   <label for="lastname">Last Name</label>

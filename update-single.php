@@ -60,7 +60,7 @@ if (isset($_GET['id'])) {
 
 <?php require "templates/header.php"; ?>
 
-<div class="container-fluid">
+<div class="container-fluid mx-auto" style="width: 310px;">
 
 <?php if (isset($_POST['submit']) && $statement) : ?>
   <?php echo escape($_POST['firstname']); ?> successfully updated.

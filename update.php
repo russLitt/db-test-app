@@ -26,7 +26,7 @@ try {
 
 <div class="container-fluid">
 
-<h2>Update users</h2>
+<h2 class="mx-auto" style="width: 200px;">Update users</h2>
 
 <div class="table-responsive">
 <table class="table table-dark table-striped table-borderless table-hover">
@@ -60,7 +60,9 @@ try {
 </div>
 <br>
 
+<div class="container-fluid mx-auto" style="width: 140px;">
 <a href="index.php">Back to home</a>
+</div>
 
 </div>
 

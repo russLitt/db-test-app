@@ -2,7 +2,7 @@
 <?php include "templates/header.php"; ?>
 
 
-<ul>
+<ul class="mx-auto" style="width: 230px;">
   <li>
     <a href="create.php"><strong>Create</strong></a> - add a user
   </li>
