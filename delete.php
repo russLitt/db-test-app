@@ -48,7 +48,8 @@ try {
 
 <!-- <?php if ($success) echo $success; ?> -->
 
-<table>
+<div class="table-responsive">
+<table class="table table-dark table-striped table-borderless table-hover">
   <thead>
     <tr>
       <th></th>
@@ -76,6 +77,7 @@ try {
   <?php endforeach; ?>
   </tbody>
 </table>
+</div>
 <br/>
 <a href="index.php">Back to home</a>
 
