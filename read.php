@@ -40,7 +40,8 @@ if (isset($_POST['submit'])) {
 
     <h2>Results</h2>
 
-    <table>
+<div class="table-responsive">
+    <table class="table table-dark table-striped table-borderless table-hover">
 <thead>
 <tr>
   <th>ID</th>
@@ -66,6 +67,7 @@ if (isset($_POST['submit'])) {
     <?php } ?>
       </tbody>
   </table>
+  </div>
   
   <?php } else { ?>
        > No results found for <?php echo escape($_POST['location']); ?>.
