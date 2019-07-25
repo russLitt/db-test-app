@@ -32,15 +32,19 @@ if (isset($_POST['submit'])) {
 
 <?php require "templates/header.php"; ?>
 
-<div class="container-fluid mx-auto" style="width: 350px;">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-4"></div>
+
+<div class="col-md-4">
 
 <?php
 if (isset($_POST['submit'])) {
   if ($result && $statement->rowCount() > 0) { ?>
 
-    <h2>Results</h2>
+<h2 style="text-align: center;">Results</h2>
 
-<div class="table-responsive">
+<div class="table-responsive" style="width: auto;">
     <table class="table table-dark table-striped table-borderless table-hover">
 <thead>
 <tr>
@@ -74,6 +78,7 @@ if (isset($_POST['submit'])) {
   <?php }
 } ?>
 
+<div style="margin: auto;">
 <h2>Search by Location</h2>
 
 <form method="post">
@@ -82,8 +87,10 @@ if (isset($_POST['submit'])) {
   <input type="submit" name="submit" value="View Results">
 </form><br>
 
-    <a href="readlastname.php">Or... search by last name</a><br><br>
-    <a href="index.php">Back to home</a>
+    <a href="readlastname.php">Or... Search by Last Name</a><br><br>
+    <a href="index.php">Back to Home</a>
+    </div>
+    </div>
     </div>
 
     <?php include "templates/footer.php"; ?>

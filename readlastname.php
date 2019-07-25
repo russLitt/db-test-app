@@ -31,12 +31,17 @@ if (isset($_POST['submit'])) {
 
 <?php require "templates/header.php"; ?>
 
-<div class="container-fluid mx-auto" style="width: 350px;">
+<div class="container-fluid" style="margin: auto;">
+<div class="row">
+<div class="col-md-4"></div>
+
+<div class="col-md-8">
 
 <?php
 if (isset($_POST['submit'])) {
   if ($result && $statement->rowCount() > 0) { ?>
-    <h2>Results</h2>
+
+<h2 style="text-align: center;">Results</h2>
 
 <div class="table-responsive">
     <table class="table table-dark table-striped table-borderless table-hover">
@@ -47,7 +52,7 @@ if (isset($_POST['submit'])) {
   <th>Last Name</th>
   <th>Email Address</th>
   <th>Age</th>
-  <th>lastname</th>
+  <th>Last Name</th>
   <th>Date</th>
 </tr>
       </thead>
@@ -71,6 +76,7 @@ if (isset($_POST['submit'])) {
   <?php }
 } ?>
 
+<div style="margin: auto;">
 <h2>Search by Last Name</h2>
 
 <form method="post">
@@ -79,9 +85,10 @@ if (isset($_POST['submit'])) {
   <input type="submit" name="submit" value="View Results">
 </form><br>
 
-    <a href="read.php">Back to search by location</a><br><br>
-    <a href="index.php">Back to home</a>
-
+    <a href="read.php">Back to Search by Location</a><br><br>
+    <a href="index.php">Back to Home</a>
+    </div>
+    </div>
     </div>
 
     <?php include "templates/footer.php"; ?>
