@@ -31,11 +31,11 @@ if (isset($_POST['submit'])) {
 
 <?php require "templates/header.php"; ?>
 
-<div class="container-fluid" style="margin: auto;">
+<div class="container-fluid">
 <div class="row">
 <div class="col-md-4"></div>
 
-<div class="col-md-8">
+<div class="col-md-4">
 
 <?php
 if (isset($_POST['submit'])) {
