@@ -85,7 +85,7 @@ if (isset($_POST['submit'])) {
           <input type="submit" name="submit" value="View Results">
         </form><br>
 
-        <a href="readlastname.php">Or... Search by Last NFame</a><br><br>
+        <a href="readlastname.php">Or... Search by Last Name</a><br><br>
         <a href="index.php">Back to Home</a>
       </div>
     </div>
