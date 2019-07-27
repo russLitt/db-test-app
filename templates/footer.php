@@ -1,8 +1,9 @@
-<div class="container-fluid">
+<footer class="footer">
+    <div class="container-fluid">
 
-    <footer class="footer">
-        <p class="text-center">Copyright 1990 something</p>
-    </footer>
-</div>
+        <p class="footer-text text-center">Copyright 1990 something</p>
+    </div>
+</footer>
+</body>
 
 </html>

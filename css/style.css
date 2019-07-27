@@ -21,5 +21,15 @@ th {
 }
 
 .footer {
-  flex-shrink: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightslategray;
+  color: white;
+  text-align: center;
+}
+
+.footer-text {
+  margin-top: 10px;
 }
