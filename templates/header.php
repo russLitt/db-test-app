@@ -12,7 +12,7 @@
 
 </head>
 
-<body class="d-flex flex-column">
+<body>
   <div class="container-fluid">
 
     <h1 class="jumbotron text-center">Simple Database App</h1>
