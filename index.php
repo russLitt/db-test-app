@@ -1,4 +1,4 @@
-<?php include "templates/header.php"; ?>
+<?php require "templates/header.php"; ?>
 
 <div class="container-fluid">
   <div class="row">
@@ -22,4 +22,4 @@
   </div>
 </div>
 
-<?php include "templates/footer.php"; ?>
+<?php require "templates/footer.php"; ?>

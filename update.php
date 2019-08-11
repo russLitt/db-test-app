@@ -59,10 +59,12 @@ try {
   </div>
   <br>
 
-  <div class="container-fluid mx-auto" style="width: 140px;">
+  <!-- <div class="mx-auto" style="width: 140px;">
     <a href="index.php">Back to home</a>
-  </div>
+  </div> -->
 
 </div>
 
+<div>
 <?php require "templates/footer.php"; ?>
+</div>

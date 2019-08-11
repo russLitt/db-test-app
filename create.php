@@ -67,4 +67,4 @@ implode(", ", array_keys($new_user)),
 
 <?php require "templates/footer.php"; ?>
 
-<?>
+?>
