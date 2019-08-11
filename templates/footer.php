@@ -1,6 +1,12 @@
-<footer class="footer" style="margin-top: 40px;">
-    <div class="container-fluid">
-        <p class="footer-text">Copyright 1990 something</p>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p><a href="index.php">Back to home</a></p>
+            </div>
+            <div class="col-md-6">
+                <p class="footer-text">Copyright 1990 something</p>
+            </div>
+        </div>
     </div>
-    <a href="index.php">Back to home</a>
 </footer>

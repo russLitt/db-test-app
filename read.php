@@ -86,7 +86,7 @@ if (isset($_POST['submit'])) {
         </form><br>
 
         <a href="readlastname.php">Or... Search by Last Name</a><br><br>
-        <a href="index.php">Back to Home</a>
+        <!-- <a href="index.php">Back to Home</a> -->
       </div>
     </div>
   </div>
