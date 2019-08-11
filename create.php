@@ -61,10 +61,9 @@ implode(", ", array_keys($new_user)),
   <input type="submit" name="submit" value="Submit">
 </form><br>
 
-<a href="index.php">Back to home</a><br>
+<!-- <a href="index.php">Back to home</a><br> -->
 
 </div>
 
 <?php require "templates/footer.php"; ?>
 
-?>
