@@ -30,8 +30,8 @@ if (isset($_POST['submit'])) {
 
 <?php require "templates/header.php"; ?>
 
-<div class="container-fluid">
-  <div class="row">
+<div class="container-fluid" id="container-main">
+  <div class="row" id="container-content">
     <div class="col-md-4"></div>
 
     <div class="col-md-4">
@@ -41,6 +41,7 @@ if (isset($_POST['submit'])) {
         if ($result && $statement->rowCount() > 0) { ?>
 
           <h2 style="text-align: center;">Results</h2>
+
 
           <div class="table-responsive" style="width: auto;">
             <table class="table table-dark table-striped table-borderless table-hover">

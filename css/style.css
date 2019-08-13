@@ -3,6 +3,16 @@ body {
   height: 100%;
 }
 
+#container-main {
+  min-height: 100%;
+  position: relative;
+}
+
+#container-content {
+  /* padding: 10px; */
+  padding-bottom: 50px;   /* Height of the footer */
+}
+
 label {
   display: block;
   margin: 5px 0;
@@ -24,6 +34,7 @@ th {
   position: absolute;
   left: 0;
   bottom: 0;
+  height: 50px;
   width: 100%;
   background-color: lightslategray;
   color: white;

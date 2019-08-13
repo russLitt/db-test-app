@@ -30,8 +30,8 @@ if (isset($_POST['submit'])) {
 
 <?php require "templates/header.php"; ?>
 
-<div class="container-fluid">
-  <div class="row">
+<div class="container-fluid" id="container-main">
+  <div class="row" id="container-content">
     <div class="col-md-4"></div>
 
     <div class="col-md-4">
