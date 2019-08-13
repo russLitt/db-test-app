@@ -23,8 +23,8 @@ try {
 
 <?php require "templates/header.php"; ?>
 
-<div class="container-fluid">
-
+<div class="container-fluid" id="page-container">
+<div id="content-wrap">
   <h2 class="mx-auto" style="width: 200px;">Update users</h2>
 
   <div class="table-responsive">
@@ -58,13 +58,6 @@ try {
     </table>
   </div>
   <br>
-
-  <!-- <div class="mx-auto" style="width: 140px;">
-    <a href="index.php">Back to home</a>
-  </div> -->
-
 </div>
-
-<div>
 <?php require "templates/footer.php"; ?>
 </div>

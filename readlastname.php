@@ -85,9 +85,7 @@ if (isset($_POST['submit'])) {
         </form><br>
 
         <a href="read.php">Back to Search by Location</a><br><br>
-        <!-- <a href="index.php">Back to Home</a> -->
       </div>
     </div>
+    <?php include "templates/footer.php"; ?>
   </div>
-
-  <?php include "templates/footer.php"; ?>

@@ -77,11 +77,5 @@ try {
     </table>
   </div>
   <br />
-
-  <!-- <div class="container-fluid mx-auto" style="width: 140px;">
-    <a href="index.php">Back to home</a>
-  </div> -->
-
+  <?php require "templates/footer.php"; ?>
 </div>
-
-<?php require "templates/footer.php"; ?>
