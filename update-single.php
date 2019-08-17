@@ -60,24 +60,22 @@ if (isset($_GET['id'])) {
 
 <?php require "templates/header.php"; ?>
 
-<div class="container-fluid mx-auto" style="width: 310px;">
+<div class="container-fluid mx-auto" id="container-main" style="width: 310px;">
+  <div id="container-content">
+    <?php if (isset($_POST['submit']) && $statement) : ?>
+      <?php echo escape($_POST['firstname']); ?> successfully updated.
+    <?php endif; ?>
 
-  <?php if (isset($_POST['submit']) && $statement) : ?>
-    <?php echo escape($_POST['firstname']); ?> successfully updated.
-  <?php endif; ?>
+    <h2>Edit a user</h2>
 
-  <h2>Edit a user</h2>
-
-  <form method="post">
-    <?php foreach ($user as $key => $value) : ?>
-      <label for="<?php echo $key; ?>"><?php echo ucfirst($key); ?></label>
-      <input type="text" name="<?php echo $key; ?>" id="<?php echo $key; ?>" value="<?php echo escape($value); ?>" <?php echo ($key === 'id' ? 'readonly' : null); ?>>
-    <?php endforeach; ?>
-    <input type="submit" name="submit" value="Submit">
-  </form>
-
-  <a href="index.php">Back to home</a>
-
+    <form method="post" style="padding-bottom: 50px;">
+      <?php foreach ($user as $key => $value) : ?>
+        <label for="<?php echo $key; ?>"><?php echo ucfirst($key); ?></label>
+        <input type="text" name="<?php echo $key; ?>" id="<?php echo $key; ?>" value="<?php echo escape($value); ?>" <?php echo ($key === 'id' ? 'readonly' : null); ?>>
+      <?php endforeach; ?>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </div>
 </div>
 
 <?php require "templates/footer.php"; ?>
