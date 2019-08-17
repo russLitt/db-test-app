@@ -68,7 +68,7 @@ if (isset($_GET['id'])) {
 
     <h2>Edit a user</h2>
 
-    <form method="post" style="padding-bottom: 50px;">
+    <form method="post" id="update-single-form">
       <?php foreach ($user as $key => $value) : ?>
         <label for="<?php echo $key; ?>"><?php echo ucfirst($key); ?></label>
         <input type="text" name="<?php echo $key; ?>" id="<?php echo $key; ?>" value="<?php echo escape($value); ?>" <?php echo ($key === 'id' ? 'readonly' : null); ?>>

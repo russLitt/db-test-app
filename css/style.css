@@ -30,6 +30,10 @@ th {
     padding-bottom: 50px;
 }
 
+#update-single-form {
+    padding-bottom: 50px;
+}
+
 .update-table,
 .delete-table {
     padding-top: 25px;
@@ -42,11 +46,12 @@ th {
     bottom: 0;
     height: 50px;
     width: 100%;
-    background-color: lightslategray;
+    background-color: lightgray;
     color: white;
     text-align: center;
 }
 
 .footer-text {
+    color: dodgerblue;
     margin-top: 10px;
 }
