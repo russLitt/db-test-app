@@ -27,7 +27,7 @@ try {
   <div id="content-container">
     <h2 class="mx-auto" style="width: 200px;">Update users</h2>
 
-    <div class="table-responsive">
+    <div class="table-responsive update-table">
       <table class="table table-dark table-striped table-borderless table-hover">
         <thead>
           <tr>

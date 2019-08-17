@@ -20,6 +20,4 @@
     </div>
   </div>
 </div>
-<div class="container">
   <?php require "templates/footer.php"; ?>
-</div>

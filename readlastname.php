@@ -86,6 +86,4 @@ if (isset($_POST['submit'])) {
 
         <a href="read.php">Back to Search by Location</a><br><br>
       </div>
-    </div>
     <?php include "templates/footer.php"; ?>
-  </div>

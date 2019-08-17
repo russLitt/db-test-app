@@ -90,6 +90,4 @@ if (isset($_POST['submit'])) {
       </div>
     </div>
   </div>
-  <div class="conainer">
     <?php include "templates/footer.php"; ?>
-</div>

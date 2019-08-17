@@ -46,7 +46,7 @@ try {
 
   <!-- <?php if ($success) echo $success; ?> -->
 
-  <div class="table-responsive">
+  <div class="table-responsive delete-table">
     <table class="table table-dark table-striped table-borderless table-hover">
       <thead>
         <tr>

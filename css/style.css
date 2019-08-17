@@ -13,6 +13,12 @@ body {
   padding-bottom: 50px; 
 }
 
+.update-table, 
+.delete-table {
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+
 label {
   display: block;
   margin: 5px 0;
