@@ -77,5 +77,5 @@ try {
     </table>
   </div>
   <br />
-  <?php require "templates/footer.php"; ?>
 </div>
+<?php require "templates/footer.php"; ?>

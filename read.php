@@ -77,7 +77,7 @@ if (isset($_POST['submit'])) {
         <?php }
       } ?>
 
-      <div class="container-fluid" style="margin: auto;">
+      <div style="margin: auto;">
         <h2>Search by Location</h2>
 
         <form method="post">
@@ -89,5 +89,7 @@ if (isset($_POST['submit'])) {
         <a href="readlastname.php">Or... Search by Last Name</a><br><br>
       </div>
     </div>
-    <?php include "templates/footer.php"; ?>
   </div>
+  <div class="conainer">
+    <?php include "templates/footer.php"; ?>
+</div>

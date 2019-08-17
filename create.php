@@ -1,14 +1,14 @@
 <?php
 
 /**
-  * Use an HTML form to create a new entry in the
-  * users table.
-  *
-  */
+ * Use an HTML form to create a new entry in the
+ * users table.
+ *
+ */
 
 if (isset($_POST['submit'])) {
-  require ("config.php");
-  require ("common.php");
+  require("config.php");
+  require("common.php");
 
   try {
     $connection = new PDO($dsn, $username, $password, $options);
@@ -22,43 +22,46 @@ if (isset($_POST['submit'])) {
     );
 
     $sql = sprintf(
-"INSERT INTO %s (%s) values (%s)",
-"users",
-implode(", ", array_keys($new_user)),
-":" . implode(", :", array_keys($new_user))
+      "INSERT INTO %s (%s) values (%s)",
+      "users",
+      implode(", ", array_keys($new_user)),
+      ":" . implode(", :", array_keys($new_user))
     );
 
     $statement = $connection->prepare($sql);
     $statement->execute($new_user);
-  } catch(PDOException $error) {
+  } catch (PDOException $error) {
     echo $sql . "<br>" . $error->getMessage();
   }
-
 }
 ?>
 
 <?php require "templates/header.php"; ?>
 
-<div class="container-fluid mx-auto" style="width: 220px;">
+<div class="container-fluid mx-auto" id="container-main" style="width: 220px;">
+  <div id="container-content">
 
-<?php if (isset($_POST['submit']) && $statement) { ?>
-  > <?php echo $_POST['firstname']; ?> successfully added.
-<?php } ?>
+    <?php if (isset($_POST['submit']) && $statement) { ?>
+      > <?php echo $_POST['firstname']; ?> successfully added.
+    <?php } ?>
 
-<h2>Add a user</h2>
+    <h2>Add a user</h2>
 
-<form method="post">
-  <label for="firstname">First Name</label>
-  <input type="text" name="firstname" id="firstname">
-  <label for="lastname">Last Name</label>
-  <input type="text" name="lastname" id="lastname">
-  <label for="email">Email Address</label>
-  <input type="text" name="email" id="email">
-  <label for="age">Age</label>
-  <input type="text" name="age" id="age">
-  <label for="location">Location</label>
-  <input type="text" name="location" id="location"><br><br>
-  <input type="submit" name="submit" value="Submit">
-</form><br>
-<?php require "templates/footer.php"; ?>
+    <form method="post">
+      <label for="firstname">First Name</label>
+      <input type="text" name="firstname" id="firstname">
+      <label for="lastname">Last Name</label>
+      <input type="text" name="lastname" id="lastname">
+      <label for="email">Email Address</label>
+      <input type="text" name="email" id="email">
+      <label for="age">Age</label>
+      <input type="text" name="age" id="age">
+      <label for="location">Location</label>
+      <input type="text" name="location" id="location"><br><br>
+      <input type="submit" name="submit" value="Submit">
+    </form><br>
+  </div>
+</div>
+<div class="container">
+  <?php require "templates/footer.php"; ?>
 </div>

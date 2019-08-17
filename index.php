@@ -1,5 +1,4 @@
 <?php require "templates/header.php"; ?>
-
 <div class="container-fluid" id="container-main">
   <div class="row" id="content-container">
     <div class="col-md-4"></div>
@@ -20,5 +19,7 @@
       </ul>
     </div>
   </div>
+</div>
+<div class="container">
   <?php require "templates/footer.php"; ?>
 </div>

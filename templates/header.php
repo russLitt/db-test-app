@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="h-100" lang="en">
 
 <head>
   <meta charset="utf-8" />
@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
   <div class="container-fluid">
 
     <h1 class="jumbotron text-center" style="margin-top: 25px;">Simple Database App</h1>
