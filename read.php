@@ -32,9 +32,9 @@ if (isset($_POST['submit'])) {
 
 <div class="container-fluid" id="container-main">
   <div class="row" id="container-content">
-    <div class="col-md-4"></div>
+    <!-- <div class="col-md-4"></div> -->
 
-    <div class="col-md-4">
+    <div class="col-md-12">
 
       <?php
       if (isset($_POST['submit'])) {
@@ -77,11 +77,11 @@ if (isset($_POST['submit'])) {
         <?php }
       } ?>
 
-      <div style="margin: auto;">
+      <div style="margin: auto;" class="text-center">
         <h2>Search by Location</h2>
 
         <form method="post">
-          <label for="location">Location</label>
+          <!-- <label for="location">Location</label> --><br>
           <input type="text" id="location" name="location">
           <input type="submit" name="submit" value="View Results">
         </form><br>
