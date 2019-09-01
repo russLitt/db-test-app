@@ -38,7 +38,7 @@ if (isset($_POST['submit'])) {
 
 <?php require "templates/header.php"; ?>
 
-<div class="container-fluid mx-auto" id="container-main" style="width: 220px;">
+<div class="container-fluid" id="container-main">
   <div id="container-content">
 
     <?php if (isset($_POST['submit']) && $statement) { ?>
@@ -62,6 +62,4 @@ if (isset($_POST['submit'])) {
     </form><br>
   </div>
 </div>
-<div class="container">
   <?php require "templates/footer.php"; ?>
-</div>
