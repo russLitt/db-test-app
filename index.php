@@ -1,8 +1,8 @@
 <?php require "templates/header.php"; ?>
 <div class="container-fluid" id="container-main">
-  <div class="row" id="content-container">
+  <div class="row justify-content-md-center" id="content-container">
     <!-- <div class="col-md-4"></div> -->
-    <div class="col-4 mx-auto" style="width: 200px;">
+    <div class="col-md-auto mx-auto">
       <ul>
         <li>
           <a href="create.php"><strong>Create</strong></a> - Add a User
