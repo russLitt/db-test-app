@@ -39,7 +39,7 @@ if (isset($_POST['submit'])) {
 <?php require "templates/header.php"; ?>
 
 <div class="container-fluid" id="container-main">
-  <div id="container-content">
+  <div id="container-content" class="col-md-auto">
 
     <?php if (isset($_POST['submit']) && $statement) { ?>
       > <?php echo $_POST['firstname']; ?> successfully added.
