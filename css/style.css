@@ -41,6 +41,16 @@ th {
     padding-bottom: 50px;
 }
 
+
+#all-categories {
+    /* padding-top: 20px; */
+    font-size: 20px;
+}
+
+.individual-categories {
+    padding: 8px;
+}
+
 .update-table,
 .delete-table {
     padding-top: 25px;
