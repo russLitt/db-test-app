@@ -75,7 +75,7 @@ if (isset($_POST['submit'])) {
         <?php }
       } ?>
 
-      <div style="margin: auto;", class="text-center">
+      <div style="margin: auto;" class="text-center">
         <h2>Search by Last Name</h2>
 
         <form method="post">

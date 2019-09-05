@@ -38,8 +38,9 @@ if (isset($_POST['submit'])) {
 
 <?php require "templates/header.php"; ?>
 
+
 <div class="container-fluid" id="container-main">
-  <div id="container-content" class="col-md-auto">
+  <div id="container-content">
 
     <?php if (isset($_POST['submit']) && $statement) { ?>
       > <?php echo $_POST['firstname']; ?> successfully added.
@@ -48,15 +49,15 @@ if (isset($_POST['submit'])) {
     <h2>Add a user</h2>
 
     <form method="post">
-      <label for="firstname">First Name</label>
+      <label for="firstname" class="text-center">First Name</label>
       <input type="text" name="firstname" id="firstname" required autofocus>
-      <label for="lastname">Last Name</label>
+      <label for="lastname" class="text-center">Last Name</label>
       <input type="text" name="lastname" id="lastname">
-      <label for="email">Email Address</label>
+      <label for="email" class="text-center">Email Address</label>
       <input type="text" name="email" id="email" required>
-      <label for="age">Age</label>
+      <label for="age" class="text-center">Age</label>
       <input type="text" name="age" id="age">
-      <label for="location">Location</label>
+      <label for="location" class="text-center">Location</label>
       <input type="text" name="location" id="location"><br><br>
       <input type="submit" name="submit" value="Submit">
     </form><br>
