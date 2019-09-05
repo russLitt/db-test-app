@@ -82,7 +82,7 @@ if (isset($_POST['submit'])) {
 
         <form method="post">
           <!-- <label for="location">Location</label> --><br>
-          <input type="text" id="location" name="location">
+          <input type="text" id="location" name="location" required autofocus>
           <input type="submit" name="submit" value="View Results">
         </form><br>
 
