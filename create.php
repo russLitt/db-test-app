@@ -49,11 +49,11 @@ if (isset($_POST['submit'])) {
 
     <form method="post">
       <label for="firstname">First Name</label>
-      <input type="text" name="firstname" id="firstname">
+      <input type="text" name="firstname" id="firstname" required autofocus>
       <label for="lastname">Last Name</label>
       <input type="text" name="lastname" id="lastname">
       <label for="email">Email Address</label>
-      <input type="text" name="email" id="email">
+      <input type="text" name="email" id="email" required>
       <label for="age">Age</label>
       <input type="text" name="age" id="age">
       <label for="location">Location</label>
