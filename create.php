@@ -38,7 +38,6 @@ if (isset($_POST['submit'])) {
 
 <?php require "templates/header.php"; ?>
 
-
 <div class="container-fluid" id="container-main">
   <div id="container-content">
 
